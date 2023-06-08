@@ -17,33 +17,34 @@ let generateCartItems = () => {
             //console.log(shopItemsData);
             let {id,item} = x;
             let search = shopItemsData.find((y)=> y.id === id) || []
-            let {productImg,price,productName} = search;
+            let {productImg,price,productName,quantity} = search;
             return `
             <div class="cart-card">
-                <div class="cart-item leaf-radius">
+                <div class="cart-item">
             
                     <img class="imgItemSmall" src="${productImg}" alt="" />
                     
                     
-                    <div class="details">
-
+                    <div class="details-mini">
                         <h4 class="title-price">
                             <p>${productName}</p>
                         </h4>
 
                         <div class="title-price-x">
-                            <p class="cart-item-price">$${price}</p>
-                 
+                            <p class="cart-item-price">$${price} per item</p>
+                       
                         </div>
 
-                        <div class="button">
-                            <i onclick="removeFromCart(${id})" class="bi bi-dash-square-dotted"></i>                        
-                                <div id=${id} class="quantity">${item}</div>
-                            <i onclick="addToCart(${id})" class="bi bi-plus-square-dotted"></i>
-                        
+
+                       <div class="mini-price-x">
+                            <div class="button">
+                                <i onclick="removeFromCart(${id})" class="bi bi-dash-square-dotted"></i>                        
+                                <p id=${id} class="cart-item-price">${item}</p>
+                                <i onclick="addToCart(${id})" class="bi bi-plus-square-dotted"></i>
+                            </div>
+                            <h3>$${item * price}</h3>
                         </div>
 
-                        <h3>$${item * price}</h3>
                     </div>
 
                 </div>
@@ -151,7 +152,7 @@ let totalAmount = (x) => {
             return item * search.price;
         }).reduce((x,y)=> x + y, 0); // total amount
         label.innerHTML = `
-        <h2> Total amount: $${amount}</h2>
+        <h2 class="darker-text"> Total amount: $${amount}</h2>
         <button class="checkout">Checkout</button>
         <button onclick="clearCart()" class="removeAll">Clear All</button>
         `;

@@ -23,18 +23,7 @@ let generateShop = () => {
                             <div class="imgItemContainer"> 
                                 <img class="imgItem" src="${productImg}" alt="">
                             </div>
-                            <div class="price-quantity">
-                                <div id="price">
-                                    <h2>$${price}</h2>
-                                </div>
-                                <div class="button">
-                                    <i onclick="removeFromCart(${id})" class="bi bi-dash-square-dotted"></i>                        
-                  
-                                <div id=${id} class="quantity">${search.item === undefined? 0: search.item}</div>
-                                    <i onclick="addToCart(${id})" class="bi bi-plus-square-dotted"></i>
-                                </div>
-                            </div>
-
+                           
 
                             <div class="product-content">       
                                 <div class="details">
@@ -43,6 +32,17 @@ let generateShop = () => {
                                 </div>
                             </div>
 
+                            <div class="price-quantity">
+                            <div id="price">
+                                <h2>$${price}</h2>
+                            </div>
+                            <div class="button">
+                                <i onclick="removeFromCart(${id})" class="bi bi-dash-square-dotted"></i>                        
+              
+                            <div id=${id} class="quantity">${search.item === undefined? 0: search.item}</div>
+                                <i onclick="addToCart(${id})" class="bi bi-plus-square-dotted"></i>
+                            </div>
+                        </div>
 
                
 

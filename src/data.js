@@ -5,7 +5,7 @@ let shopItemsData = [
         price: 450,
         quantity: 0,
         description: "These dreams reflect the events and experiences of daily life, such as interactions with friends and family, work-related situations, or familiar places.",
-        productImg:"images/img-5.jpg"
+        productImg:"images/img-1.jpg"
     },
     {
         id: "AB002",
@@ -13,7 +13,7 @@ let shopItemsData = [
         price: 999,
         quantity: 0,
         description: "Nightmares are distressing or frightening dreams that can cause feelings of fear, anxiety, or unease. They often involve scenarios that evoke strong negative emotions or involve threats to the dreamer's safety or well-being.",
-        productImg:"images/img-6.jpg"
+        productImg:"images/img-2.jpg"
     },
     {
         id: "AB003",
@@ -21,7 +21,7 @@ let shopItemsData = [
         price: 27,
         quantity: 0,
         description: "Recurring dreams are those that repeat themselves over time, with similar themes, settings, or events. They may reflect unresolved issues, fears, or unresolved emotions in the dreamer's life.",
-        productImg:"images/img-5.jpg"
+        productImg:"images/img-3.jpg"
     },
     {
         id: "AB004",
@@ -29,7 +29,7 @@ let shopItemsData = [
         price: 47,
         quantity: 0,
         description: "These dreams involve imaginative and fantastical elements, such as mythical creatures, magical powers, or surreal landscapes. They often take the dreamer on extraordinary adventures and can be highly imaginative.",
-        productImg:"images/img-6.jpg"
+        productImg:"images/img-4.jpg"
     },
     {
         id: "AB005",
