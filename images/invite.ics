@@ -1,0 +1,110 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Manila
+X-LIC-LOCATION:Asia/Manila
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:PST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Manila:20230605T173000
+DTEND;TZID=Asia/Manila:20230605T213000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20230921T155959Z;BYDAY=MO,TU,WE,TH,FR
+DTSTAMP:20230602T082753Z
+ORGANIZER;CN=Bootcamp Classes:mailto:c_nn0fj3bkq28um827fk24fu6bo8@group.cal
+ endar.google.com
+UID:0i0o9uu4me4mq11bor3jetqr67@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Hillary Almonte;X-NUM-GUESTS=0:mailto:hillary.almonte@tuitt.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=ariandigibiz@gmail.com;X-NUM-GUESTS=0:mailto:ariandigibiz@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=baliguatjupiter@gmail.com;X-NUM-GUESTS=0:mailto:baliguatjupiter@gma
+ il.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Camille Doroteo;X-NUM-GUESTS=0:mailto:camille.doroteo@tuitt.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=chengjoybelmonte@gmail.com;X-NUM-GUESTS=0:mailto:chengjoybelmonte@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=ciruelawillyson@gmail.com;X-NUM-GUESTS=0:mailto:ciruelawillyson@gma
+ il.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=coding.casero@gmail.com;X-NUM-GUESTS=0:mailto:coding.casero@gmail.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=corneljonahmae@gmail.com;X-NUM-GUESTS=0:mailto:corneljonahmae@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=donnamay.mendoza228@gmail.com;X-NUM-GUESTS=0:mailto:donnamay.mendoz
+ a228@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=engineer.cesardcjr@gmail.com;X-NUM-GUESTS=0:mailto:engineer.cesardc
+ jr@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jacob.restacio@gmail.com;X-NUM-GUESTS=0:mailto:jacob.restacio@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=janeannmanguray@gmail.com;X-NUM-GUESTS=0:mailto:janeannmanguray@gma
+ il.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jcmariano.jongco@gmail.com;X-NUM-GUESTS=0:mailto:jcmariano.jongco@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jestonie.ordanez3121@gmail.com;X-NUM-GUESTS=0:mailto:jestonie.ordan
+ ez3121@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=johnedison.macaraig@gmail.com;X-NUM-GUESTS=0:mailto:johnedison.maca
+ raig@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=khien.bustillo16@gmail.com;X-NUM-GUESTS=0:mailto:khien.bustillo16@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=maimdls@gmail.com;X-NUM-GUESTS=0:mailto:maimdls@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=maryll.driz@gmail.com;X-NUM-GUESTS=0:mailto:maryll.driz@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=michaelangelo.dorio@gmail.com;X-NUM-GUESTS=0:mailto:michaelangelo.d
+ orio@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=mikkoberol@gmail.com;X-NUM-GUESTS=0:mailto:mikkoberol@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=prince.robielos@gmail.com;X-NUM-GUESTS=0:mailto:prince.robielos@gma
+ il.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=reyzellbrondo0806@gmail.com;X-NUM-GUESTS=0:mailto:reyzellbrondo0806
+ @gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=skyvillarin@gmail.com;X-NUM-GUESTS=0:mailto:skyvillarin@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=solomonandresaudrey77@gmail.com;X-NUM-GUESTS=0:mailto:solomonandres
+ audrey77@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=wymagpantay@gmail.com;X-NUM-GUESTS=0:mailto:wymagpantay@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=zara.agtang@gmail.com;X-NUM-GUESTS=0:mailto:zara.agtang@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/kyx-nxhv-jrq
+X-MICROSOFT-CDO-OWNERAPPTID:705147582
+CREATED:20230522T070726Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/ky
+ x-nxhv-jrq\nOr dial: (US) +1 314-666-2179 PIN: 944724954#\nMore phone numbe
+ rs: https://tel.meet/kyx-nxhv-jrq?pin=2331234323291&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230602T082749Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:B297
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
